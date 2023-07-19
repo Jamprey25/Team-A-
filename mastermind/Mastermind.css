@@ -1,0 +1,104 @@
+#gameBoard {
+    width:fit-content;
+    margin: auto;
+    margin-top: 20px
+}
+#reset, #submit {
+    margin-bottom: 20px
+}
+#submit {
+    float: right
+}
+.mmRow {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px
+}
+.guess {
+    display: flex;
+    justify-content: space-around;
+    width: 300px
+}
+.feedbacks {
+    width: 403px;
+    height: 403px;
+    /* display: flex; */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    margin:auto;
+    /* flex-wrap:wrap;
+    justify-content: flex-start; */
+
+  
+}
+.feedback {
+    width: 400px;
+    height: 50px;
+    display:flex;
+    
+
+      
+  
+}
+option {
+    color: white
+}
+.red {
+    background-color: red
+}
+.blue {
+    background-color: blue
+}
+.yellow {
+    background-color: yellow;
+    color: black
+}
+.green {
+    background-color: green
+}
+.orange {
+    background-color: orange
+}
+.purple {
+    background-color: purple
+}
+.black{
+    
+    background-color: black;
+    border-color: white;
+   
+    
+    
+
+
+}
+.white{
+    
+    background-color: lightcyan;
+    border-color: black;
+   
+    
+    
+}
+.peg{
+    border-width: 2px;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    /* display: grid; */
+    display: inline-grid;
+    border-radius: 50%;
+
+}
+.win{
+    /* border-width: 2px;
+    border-style: solid; */
+    width: 50px;
+    height: 50px;
+    /* display: grid; */
+    display: inline-grid;
+
+
+
+}
